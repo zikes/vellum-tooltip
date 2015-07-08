@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>vellum-tooltip Demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../vellum-tooltip.html">
+    <style>
+      body {
+        text-align: center;
+      }
+      table {
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body unresolved>
+
+    <table width="25%">
+      <tr>
+        <td>
+          <vellum-tooltip>
+            <img src="//placekitten.com/g/64/64" alt="A kitten" title="This is a kitten">
+          </vellum-tooltip>
+        </td>
+        <td>
+          <vellum-tooltip large>
+            <div title="My Tooltip">Large Text</div>
+          </vellum-tooltip>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

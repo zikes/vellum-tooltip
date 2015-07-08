@@ -1,0 +1,23 @@
+{
+  "name": "vellum-tooltip",
+  "version": "1.0.0",
+  "description": "A paper-y tooltip component.",
+  "keywords": [
+    "web-component",
+    "polymer"
+  ],
+  "main": "vellum-tooltip.html",
+  "homepage": "https://github.com/zikes/vellum-tooltip/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
