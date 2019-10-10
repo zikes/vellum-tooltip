@@ -2,7 +2,7 @@
 
 A Polymerized version of https://github.com/google/material-design-lite/tree/master/src/tooltip
 
-### [Demo](http://polymer.zikes.me/bower_components/vellum-tooltip/demo/index.html)
+### [Demo](https://vellum-tooltip.polymer.zikes.me/demo/)
 
 ## Usage
 
